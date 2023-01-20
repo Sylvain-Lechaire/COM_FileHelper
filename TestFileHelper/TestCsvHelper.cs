@@ -38,7 +38,7 @@ namespace TestInOutLib
         }
 
         [Test]
-        public void Constructor_UnstructuredLine_ThrowException()
+        public void CsvHelper_UnstructuredLine_ThrowException()
         {
             //given
             //refer to Setup() method
@@ -59,7 +59,7 @@ namespace TestInOutLib
         }
 
         [Test]
-        public void Constructor_EmptyLine_ThrowException()
+        public void CsvHelper_EmptyLine_ThrowException()
         {
             //given
             //refer to Setup() method
@@ -80,7 +80,7 @@ namespace TestInOutLib
         }
 
         [Test]
-        public void Constructor_NominalCase_Success()
+        public void CsvHelper_NominalCase_GetFileContent()
         {
             //given
             //refer to Setup() method

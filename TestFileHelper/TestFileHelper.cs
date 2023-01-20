@@ -2,7 +2,7 @@ using InOutLib;
 
 namespace TestInOutLib
 {
-    public class Tests
+    public class TestsFileHelper
     {
         #region private attributs
         private FileHelper _fileHelper;
@@ -23,7 +23,7 @@ namespace TestInOutLib
         }
 
         [Test]
-        public void FileHelper_NominalCase_Success()
+        public void FileHelper_NominalCase_GetFileContent()
         {
             //given
             //refer to Init() method
@@ -46,7 +46,7 @@ namespace TestInOutLib
         }
 
         [Test]
-        public void FileHelper_InexistingFile_ThrowFileNotFoundException()
+        public void FileHelper_InexistingFile_ThrowException()
         {
             //given
             string wrongPath = "falkjalj";
