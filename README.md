@@ -56,6 +56,6 @@ Rappel: Ne touchez pas les classes de tests ni l'architecture du projet!
 
 Conseil:
 * Il n'y a pas beaucoup de code à produire, favorisez la qualité !
-* Si le code ne compile pas, mettez en commentaire le code afin que je puisse valider votre tentative.
+* Si le code ne compile pas, mettez en commentaire le code qui vous bloque. Cela me permettra de valoriser votre tentative.
 
 Bonne chance !
