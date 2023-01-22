@@ -47,7 +47,7 @@ namespace TestInOutLib
             {
                 streamWriter.WriteLine("" + _separator + _separator + _separator);//"" to force the string conversion
             }
-            streamWriter.WriteLine("unstructredLine");//we add a last with an other structure
+            streamWriter.WriteLine("" + _separator + _separator);//this added line presents a structure error (only 2 speartors instead of 3)
             streamWriter.Close();
             _csvHelper = new CsvHelper(_path, _fileName, _separator);
 
@@ -55,7 +55,7 @@ namespace TestInOutLib
             //Event is triggered by the assertion
 
             //when
-            Assert.Throws<UnsupportedSeparatorException>(() => _csvHelper.ExtractFileContent());
+            Assert.Throws<InOutLib.StructureException>(() => _csvHelper.ExtractFileContent());
         }
 
         [Test]
