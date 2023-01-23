@@ -9,7 +9,7 @@ Ce projet "FileHelper" est un projet permettant d'évaluer l'approche TDD (Test 
 |:--|---|
 | Module  | 226b  |
 | Volée | 2022-2023 - T2  |
-| Classes | CA1a, SiCMi3a/b |
+| Classes | CA2a, SiCMi3a/b |
 
 ---
 
