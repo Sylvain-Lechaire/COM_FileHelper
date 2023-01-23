@@ -58,4 +58,12 @@ Conseil:
 * Il n'y a pas beaucoup de code à produire, favorisez la qualité !
 * Si le code ne compile pas, mettez en commentaire le code qui vous bloque. Cela me permettra de valoriser votre tentative.
 
+## Livraison
+
+Préparez une archive en format .zip contenant les deux classes :
+* CsvHelper.cs
+* FileHelper.cs
+
+Nom du zip 226b_TDD_[VotreNomDeFamille].zip. Livraison selon les consignes de votre animateur/trice.
+
 Bonne chance !
