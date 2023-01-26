@@ -4,12 +4,17 @@
     {
         #region private attributs
         //TODO Private attributs - 2pts
+        private static string _path;
+        private char _separator = ';';
+
         #endregion private attributs
 
         #region constructor
         public CsvHelper(string path, string fileName, char separator = ';') : base(path, fileName)
         {
             //TODO Constructor - 3pts
+            _separator = separator; 
+            _path = path;   
         }
         #endregion constructor
 
@@ -17,6 +22,8 @@
         public void ExtractFileContent()
         {
             //TODO ExtractFileContent - 6pts
+            
+
         }
         #endregion public methods
 
@@ -25,6 +32,7 @@
         {
             //TODO IsCharSupported - 2pts
             throw new NotImplementedException();
+            //return _separator;
         }
         #endregion privates methods
 
